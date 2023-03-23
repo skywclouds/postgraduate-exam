@@ -37,7 +37,6 @@ typedef struct//定义十字链表图
     int arcnum;
 }OLGraph;
 
-
 /*定义无向网
 */
 int CreateUDN(MGraph *G);
@@ -86,12 +85,10 @@ int CreateUDN(MGraph *G)
         printf("the current vex is %c\n",v);
         G->vexs[i] = v;
     }   
-        
 
     for(int i = 0;i < G->vexnum;i++)    
         for(int j = 0;j < G->vexnum;j++)        
             G->arcs[i][j] = -1;      
-
     
     for(int k = 0;k < G->arcnum;k++)//输入各个弧
     {
@@ -167,7 +164,6 @@ int locate_2(OLGraph *G, char v)
         if(G->xlist[i].data == v)
             return i;
     return -1;
-    return 0;
 }
 void printAM(MGraph *G)
 {
