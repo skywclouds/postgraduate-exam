@@ -1,5 +1,5 @@
 /**
- * @file array.c
+ * @file binarytree.c
  * @author He Wang
  * @brief 复习数据结构 二叉树基础代码
  * @date 2023-03-14
