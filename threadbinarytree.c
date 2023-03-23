@@ -1,5 +1,5 @@
 /**
- * @file array.c
+ * @file threadbinarytree.c
  * @author He Wang
  * @brief 复习数据结构 线索二叉树代码
  * @date 2023-03-14
