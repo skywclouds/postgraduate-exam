@@ -1,7 +1,7 @@
 /**
  * @file balancedbinarytree.c
  * @author He Wang
- * @brief 复习数据结构 二叉排序树代码
+ * @brief 复习数据结构 平衡二叉树代码
  * @date 2023-04-03
  */
 
