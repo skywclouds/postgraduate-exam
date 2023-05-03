@@ -8,19 +8,19 @@
 #include <stdio.h>
 #include <malloc.h>
 
-typedef struct ArcBox//定义十字链表弧结点
+typedef struct ArcBox//定义弧结点
 {
     int data;
     struct ArcBox *nextarc;//下一条弧
 }ArcBox;
 
-typedef struct//定义十字链表顶点结点
+typedef struct//定义顶点结点
 {
     int data;
     ArcBox *firstarc;//该顶点的第一条出弧
 }VexNode;
 
-typedef struct//定义十字链表图
+typedef struct//定义图
 {
     VexNode vlist[20];
     int vexnum;
