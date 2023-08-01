@@ -1,5 +1,5 @@
 /**
- * @file findcircle2.c
+ * @file findCircle2.c
  * @author He Wang
  * @brief 复习数据结构 找到图中的环代码_非递归算法
  * @date 2023-08-01
@@ -27,7 +27,7 @@ typedef struct//定义链表图
 }LGraph;
 
 /**
- * @brief 初始化三个数组
+ * @brief 初始化两个数组
  * 
  * @param t 记录当前结点是否已被访问
  * @param s 数组实现的栈
@@ -104,7 +104,6 @@ int findCircle(LGraph *G,int f,int *t,int *s)
         {
             if (a->data == f)//如果找到了环    
                 return 1;//返回成功
-            
             if(!*(t + a->data))//如果该结点没有被访问
             {
                 c = a->data;//更新当前结点
