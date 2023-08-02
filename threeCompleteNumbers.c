@@ -1,5 +1,5 @@
 /**
- * @file getTreeWidth.c
+ * @file threeCompleteNumbers.c
  * @author He Wang
  * @brief 复习C语言 三个完全平方三位数，1-9中每个数字只出现一次
  * @date 2023-08-02
